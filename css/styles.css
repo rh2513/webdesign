@@ -1,0 +1,233 @@
+body {
+	background-color:white;
+	margin:0;
+}
+
+
+ft {
+	width:100%;
+	height:600px;
+	background-color:white;
+
+}
+
+h2.headline {
+	font-family: 'Raleway', sans-serif;
+	font-size:42.5px;
+	text-decoration:underline;
+	text-decoration-style:solid;
+	text-deocration-color:black;
+	padding-top:10px;
+	color: black;
+	text-align:center;
+	margin:auto;
+	width:45%;
+}
+
+h2.headline a:hover{
+	text-decoration-color: #0dbe98;
+}
+
+img.headlineimg {
+	width:43%;
+	margin:auto;
+	display:block;
+	height:312px;
+}
+
+img.center {
+	margin:auto;
+	width:137px;
+	margin-left:213px;
+	height:28px;
+	}
+
+#latest {
+	width:45%;
+	margin:auto;
+	height: 910px;
+	background-color:white;
+
+}
+
+#violator {
+	width:75%;
+	height:90px;
+	margin:auto;
+	background-color:black;
+	padding-bottom: 20px;
+}
+
+#personal {
+	width:37.5%;
+	height:65px;
+	background-color:black;
+	margin:30px 30px 300px 300px;}
+
+#whiteBox {
+	width:100%;
+	height:30px;
+}
+
+#footer {
+	height:155px;
+	width:100%;
+	background-color:black;
+	clear:both;
+
+}
+
+#hufflogo {
+	width:137px;
+	height:16px;
+	margin-left:165px;
+	padding-top:60px;
+	float:none;
+	
+}
+
+
+p {	font-family: 'Noto Sans', sans-serif;
+	font-size: 12px;
+	padding-bottom:25px;
+	color: #ffffff;
+	text-align:center;
+	margin:0 auto;
+}
+
+p.learnmore a {
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 12px;
+	text-decoration:underline;
+	text-decoration-style:solid;
+	padding-bottom:25px;
+	color: #ffffff;
+	text-align:center;
+	margin:0 auto;
+	
+}
+
+p.learnmore a:hover {
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 12px;
+	text-decoration:underline;
+	text-decoration-style:solid;
+	padding-bottom:25px;
+	color: #0dbe98;
+	text-align:center;
+	margin:0 auto;
+	
+}
+
+
+
+/* Styling the homepage Links */
+
+.homeLink {
+	width:30%;
+	float:right;
+	margin-right:3%;
+	text-align:center;
+	display:block;
+	color:black;
+}
+
+.homeLink:hover {
+	text-decoration:underline;
+	color:black;
+}
+
+img.image {
+	width:100%;
+	height:100px;
+}
+
+p.textcolor1 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 10px;
+	color:black;
+	text-align:left;
+	text-decoration:none;}
+	
+p.textcolor2 {
+	font-family: 'Lato', sans-serif;
+	font-size:14px;
+	text-align:left;
+	color:black;}
+	
+	
+.homeLink2 {
+	width:50%;
+	float:right;
+	margin-right:0%;
+	text-align:center;
+	display:block;
+	color:black;
+}
+
+.homeLink2:hover {
+	text-decoration:underline;
+	color:black;
+}
+
+img.image2 {
+	width:92%;
+	height:152px;
+}
+
+p.text1 {
+	font-family: 'Raleway', sans-serif;
+	font-size: 23px;
+	color:black;
+	text-align:center;
+	text-decoration:none;}
+	
+p.text2 {
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size:15px;
+	text-align:center;
+	color:black;}
+	
+p.text3 {
+	font-family: 'Lato', sans-serif;
+	font-size:12px;
+	text-align:center;
+	color:black;}
+
+
+
+h2 {
+	font-family: 'Kanit', sans-serif;
+	font-size:30px;
+	padding-top:10px;
+	color: #ffffff;
+	text-align:center;
+	margin:0 auto;
+}
+
+
+ul.ft1 {
+	display:block;
+	margin-left:305px;
+	width:120px;
+	float:left;}
+	
+
+
+/* 
+ul.ft2 {
+	display:block;
+	margin-left:425px;
+	width:120px;
+	float:none;}
+ */
+
+	
+
+/* The sticky class is added to the navbar with JS when it reaches its scroll position */
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
